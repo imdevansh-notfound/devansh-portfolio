@@ -1,0 +1,4 @@
+import type { ButtonHTMLAttributes, ReactNode } from 'react';
+import { cn } from '../../lib/cn';
+type Props = ButtonHTMLAttributes<HTMLButtonElement> & { children: ReactNode; variant?: 'primary' | 'secondary' | 'ghost' };
+export function Button({ children, className, variant = 'primary', ...props }: Props) { return <button className={cn('focus-ring inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-semibold transition', variant === 'primary' && 'bg-blue-600 text-white hover:bg-blue-700', variant === 'secondary' && 'border border-gray-200 bg-white text-ink hover:bg-gray-50 dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-800', variant === 'ghost' && 'text-muted hover:bg-gray-100 dark:hover:bg-slate-800', className)} {...props}>{children}</button>; }

@@ -1,0 +1,2 @@
+import { links } from '../../data/portfolio';
+export function Footer() { return <footer className="border-t border-gray-100 py-8 dark:border-slate-900"><div className="container-page flex flex-col justify-between gap-3 text-sm text-muted sm:flex-row"><p>© 2026 Devansh Tiwari</p><div className="flex gap-4"><a className="focus-ring hover:text-accent" href={links.github}>GitHub</a><a className="focus-ring hover:text-accent" href={links.linkedin}>LinkedIn</a></div><p>Designed &amp; Developed by Devansh Tiwari</p></div></footer>; }
