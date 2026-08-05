@@ -19,8 +19,7 @@ export function Hero() {
     <section className="container-page flex min-h-[calc(100vh-4rem)] items-center py-20">
       <div className="grid w-full items-center gap-14 lg:grid-cols-[1.2fr_.8fr]">
         <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-          <p className="eyebrow">Based in India</p>
-          <h1 className="font-['Poppins'] text-5xl font-bold leading-[1.08] tracking-tight sm:text-6xl">
+            <h1 className="font-['Poppins'] text-5xl font-bold leading-[1.08] tracking-tight sm:text-6xl">
             Devansh<br /><span className="text-accent">Tiwari.</span>
           </h1>
           <p className="mt-6 text-xl font-medium text-gray-700 dark:text-slate-200">Aspiring Software Engineer</p>
