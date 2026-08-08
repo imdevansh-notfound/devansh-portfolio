@@ -1,5 +1,5 @@
 import type { Certificate, Project } from '../types/portfolio';
-export const links = { email: 'mailto:devanshtiwari1108@gmail.com', github: 'https://github.com/imdevansh-notfound', linkedin: 'https://www.linkedin.com/in/devanshtiwari11' };
+export const links = { email: 'mailto:devanshtiwari52@gmail.com', github: 'https://github.com/imdevansh-notfound', linkedin: 'https://www.linkedin.com/in/devansh-tiwari11/' };
 export const skillGroups = [
   ['Programming', ['Python', 'C++', 'Data Structures', 'Algorithms']],
   ['Frontend', ['React', 'TypeScript', 'HTML', 'CSS', 'Tailwind CSS']],
